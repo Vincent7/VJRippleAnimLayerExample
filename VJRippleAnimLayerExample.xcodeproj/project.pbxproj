@@ -15,6 +15,8 @@
 		BFE90F641C1FBA5900E2BF44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE90F621C1FBA5900E2BF44 /* LaunchScreen.storyboard */; };
 		BFE90F6F1C1FBA5900E2BF44 /* VJRippleAnimLayerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE90F6E1C1FBA5900E2BF44 /* VJRippleAnimLayerExampleTests.m */; };
 		BFE90F7A1C1FBA5900E2BF44 /* VJRippleAnimLayerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE90F791C1FBA5900E2BF44 /* VJRippleAnimLayerExampleUITests.m */; };
+		BFE90F8A1C1FBA8A00E2BF44 /* VJCircleMaskLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE90F891C1FBA8A00E2BF44 /* VJCircleMaskLayer.m */; };
+		BFE90F8E1C1FBA9B00E2BF44 /* VJTapAnimButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE90F8D1C1FBA9B00E2BF44 /* VJTapAnimButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		BFE90F751C1FBA5900E2BF44 /* VJRippleAnimLayerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VJRippleAnimLayerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE90F791C1FBA5900E2BF44 /* VJRippleAnimLayerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VJRippleAnimLayerExampleUITests.m; sourceTree = "<group>"; };
 		BFE90F7B1C1FBA5900E2BF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE90F881C1FBA8A00E2BF44 /* VJCircleMaskLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJCircleMaskLayer.h; sourceTree = "<group>"; };
+		BFE90F891C1FBA8A00E2BF44 /* VJCircleMaskLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VJCircleMaskLayer.m; sourceTree = "<group>"; };
+		BFE90F8C1C1FBA9B00E2BF44 /* VJTapAnimButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJTapAnimButton.h; sourceTree = "<group>"; };
+		BFE90F8D1C1FBA9B00E2BF44 /* VJTapAnimButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VJTapAnimButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,13 @@
 		BFE90F531C1FBA5900E2BF44 /* VJRippleAnimLayerExample */ = {
 			isa = PBXGroup;
 			children = (
+				BFE90F871C1FBA6000E2BF44 /* Layer */,
 				BFE90F571C1FBA5900E2BF44 /* AppDelegate.h */,
 				BFE90F581C1FBA5900E2BF44 /* AppDelegate.m */,
 				BFE90F5A1C1FBA5900E2BF44 /* ViewController.h */,
 				BFE90F5B1C1FBA5900E2BF44 /* ViewController.m */,
+				BFE90F8C1C1FBA9B00E2BF44 /* VJTapAnimButton.h */,
+				BFE90F8D1C1FBA9B00E2BF44 /* VJTapAnimButton.m */,
 				BFE90F5D1C1FBA5900E2BF44 /* Main.storyboard */,
 				BFE90F601C1FBA5900E2BF44 /* Assets.xcassets */,
 				BFE90F621C1FBA5900E2BF44 /* LaunchScreen.storyboard */,
@@ -138,6 +147,15 @@
 				BFE90F7B1C1FBA5900E2BF44 /* Info.plist */,
 			);
 			path = VJRippleAnimLayerExampleUITests;
+			sourceTree = "<group>";
+		};
+		BFE90F871C1FBA6000E2BF44 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				BFE90F881C1FBA8A00E2BF44 /* VJCircleMaskLayer.h */,
+				BFE90F891C1FBA8A00E2BF44 /* VJCircleMaskLayer.m */,
+			);
+			name = Layer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFE90F5C1C1FBA5900E2BF44 /* ViewController.m in Sources */,
+				BFE90F8A1C1FBA8A00E2BF44 /* VJCircleMaskLayer.m in Sources */,
 				BFE90F591C1FBA5900E2BF44 /* AppDelegate.m in Sources */,
 				BFE90F561C1FBA5900E2BF44 /* main.m in Sources */,
+				BFE90F8E1C1FBA9B00E2BF44 /* VJTapAnimButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
